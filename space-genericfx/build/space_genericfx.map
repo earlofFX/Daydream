@@ -1,0 +1,592 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+                              /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o (memset)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+                              /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o (cosf)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+                              /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o (sinf)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o) (__ieee754_rem_pio2f)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o) (__kernel_cosf)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o) (__kernel_rem_pio2f)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o) (__kernel_sinf)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o) (fabsf)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o) (floorf)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o) (scalbnf)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+ .group         0x0000000000000000        0x8 /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+ .group         0x0000000000000000        0xc /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+ .group         0x0000000000000000        0xc /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+ .group         0x0000000000000000        0x8 /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+ .group         0x0000000000000000        0xc /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+ .group         0x0000000000000000        0x8 /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+ .group         0x0000000000000000        0xc /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+ .group         0x0000000000000000        0xc /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+ .group         0x0000000000000000        0xc /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+LOAD /workspace/nts-3_kaoss/space-genericfx//build/obj/_unit_base.o
+LOAD /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+LOAD /workspace/nts-3_kaoss/space-genericfx//build/obj/params.o
+                0x0000000000000000                __heap_size = 0x0
+                0x0000000000000000                __stack_size = 0x0
+                0x00000000000000d4                . = SIZEOF_HEADERS
+
+.hash           0x00000000000000d4      0x174
+ *(.hash)
+ .hash          0x00000000000000d4      0x174 /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+
+.dynsym         0x0000000000000248      0x360
+ *(.dynsym)
+ .dynsym        0x0000000000000248      0x360 /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+
+.dynstr         0x00000000000005a8      0x306
+ *(.dynstr)
+ .dynstr        0x00000000000005a8      0x306 /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+
+.rel.dyn        0x00000000000008b0       0x90
+ *(.rel.dyn)
+ .rel.got       0x00000000000008b0       0x20 /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+ .rel.iplt      0x00000000000008d0        0x0 /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+ .rel.init_array
+                0x00000000000008d0        0x8 /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+ .rel.data.rel.local._ZZNK6Effect20getParameterStrValueEhlE5names
+                0x00000000000008d8       0x28 /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+ .rel.text      0x0000000000000900       0x40 /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+
+.rel.plt        0x0000000000000940       0xa8
+ *(.rel.plt)
+ .rel.plt       0x0000000000000940       0xa8 /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+
+.text           0x00000000000009e8     0x1ea0
+ *(.text)
+ .text          0x00000000000009e8        0x0 /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+ .text          0x00000000000009e8       0x20 /workspace/nts-3_kaoss/space-genericfx//build/obj/_unit_base.o
+ .text          0x0000000000000a08      0x1f0 /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+                0x0000000000000a08                unit_init
+                0x0000000000000a1c                unit_teardown
+                0x0000000000000a1e                unit_reset
+                0x0000000000000a20                unit_resume
+                0x0000000000000a22                unit_suspend
+                0x0000000000000a24                unit_render
+                0x0000000000000a64                unit_set_param_value
+                0x0000000000000b84                unit_get_param_value
+                0x0000000000000bc0                unit_get_param_str_value
+                0x0000000000000be0                unit_set_tempo
+                0x0000000000000bf4                unit_tempo_4ppqn_tick
+                0x0000000000000bf6                unit_touch_event
+ .text          0x0000000000000bf8       0xb0 /workspace/nts-3_kaoss/space-genericfx//build/obj/params.o
+                0x0000000000000bf8                initSinLut()
+                0x0000000000000c48                initHannLut()
+ .text          0x0000000000000ca8       0xa0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+                0x0000000000000ca8                memset
+ .text          0x0000000000000d48       0x90 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+                0x0000000000000d48                cosf
+ .text          0x0000000000000dd8       0x94 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+                0x0000000000000dd8                sinf
+ .text          0x0000000000000e6c      0x298 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+                0x0000000000000e6c                __ieee754_rem_pio2f
+ .text          0x0000000000001104      0x104 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+                0x0000000000001104                __kernel_cosf
+ .text          0x0000000000001208      0x664 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+                0x0000000000001208                __kernel_rem_pio2f
+ .text          0x000000000000186c       0x90 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+                0x000000000000186c                __kernel_sinf
+ .text          0x00000000000018fc       0x10 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+                0x00000000000018fc                fabsf
+ .text          0x000000000000190c       0x88 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+                0x000000000000190c                floorf
+ .text          0x0000000000001994       0xe4 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+                0x0000000000001994                scalbnf
+ *(.text.*)
+ .text._ZNK9DelayLine11readHermiteEf
+                0x0000000000001a78       0xdc /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+                0x0000000000001a78                DelayLine::readHermite(float) const
+ .text._ZN6Biquad5resetEv
+                0x0000000000001b54       0x16 /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+                0x0000000000001b54                Biquad::reset()
+ *fill*         0x0000000000001b6a        0x2 
+ .text._ZN6Biquad6setLPFEfff
+                0x0000000000001b6c       0x88 /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+                0x0000000000001b6c                Biquad::setLPF(float, float, float)
+ .text._ZN6Biquad6setBPFEfff
+                0x0000000000001bf4       0x84 /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+                0x0000000000001bf4                Biquad::setBPF(float, float, float)
+ .text._ZN6Biquad7processEf
+                0x0000000000001c78       0x46 /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+                0x0000000000001c78                Biquad::process(float)
+ *fill*         0x0000000000001cbe        0x2 
+ .text._ZN10SpaceDelay9setPresetEi
+                0x0000000000001cc0      0x1bc /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+                0x0000000000001cc0                SpaceDelay::setPreset(int)
+ .text._ZN10SpaceDelay8setTempoEm
+                0x0000000000001e7c       0x54 /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+                0x0000000000001e7c                SpaceDelay::setTempo(unsigned long)
+ .text._ZN10SpaceDelay7processEPKfPfm
+                0x0000000000001ed0      0x22c /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+                0x0000000000001ed0                SpaceDelay::process(float const*, float*, unsigned long)
+ .text._ZN6Effect4InitEPK17unit_runtime_desc
+                0x00000000000020fc      0x13c /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+                0x00000000000020fc                Effect::Init(unit_runtime_desc const*)
+ .text.startup  0x0000000000002238       0x74 /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+ *(.init)
+ *(.fini)
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+ *(.rodata)
+ .rodata        0x00000000000022ac      0x200 /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+ .rodata        0x00000000000024ac      0x398 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .rodata        0x0000000000002844       0x38 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ *(.rodata.*)
+ .rodata.str1.1
+                0x000000000000287c        0xc /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+
+.glue_7         0x0000000000002888        0x0
+ .glue_7        0x0000000000002888        0x0 linker stubs
+
+.glue_7t        0x0000000000002888        0x0
+ .glue_7t       0x0000000000002888        0x0 linker stubs
+
+.vfp11_veneer   0x0000000000002888        0x0
+ .vfp11_veneer  0x0000000000002888        0x0 linker stubs
+
+.v4_bx          0x0000000000002888        0x0
+ .v4_bx         0x0000000000002888        0x0 linker stubs
+
+.plt            0x0000000000002888      0x160
+ .plt           0x0000000000002888      0x160 /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+
+.iplt           0x00000000000029e8        0x0
+ .iplt          0x00000000000029e8        0x0 /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+
+.unit_header    0x00000000000029e8      0x2f0
+                0x00000000000029e8                . = ALIGN (0x8)
+ *(.unit_header)
+ .unit_header   0x00000000000029e8      0x178 /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+                0x00000000000029e8                unit_header
+ .unit_header   0x0000000000002b60      0x178 /workspace/nts-3_kaoss/space-genericfx//build/obj/_unit_base.o
+
+.gnu.version_d  0x0000000000002cd8        0x0
+ .gnu.version_d
+                0x0000000000002cd8        0x0 /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+
+.gnu.version    0x0000000000002cd8        0x0
+ .gnu.version   0x0000000000002cd8        0x0 /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+
+.gnu.version_r  0x0000000000002cd8        0x0
+ .gnu.version_r
+                0x0000000000002cd8        0x0 /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+
+.preinit_array  0x0000000000002cd8        0x0
+                0x0000000000002cd8                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000000002cd8        0x4
+                0x0000000000002cd8                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*))
+ *(.init_array)
+ .init_array    0x0000000000002cd8        0x4 /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+                [!provide]                        PROVIDE (__init_array_end = .)
+
+.dynamic        0x0000000000002ce0       0xa8
+                0x0000000000002ce0                . = ALIGN (0x8)
+ *(.dynamic)
+ .dynamic       0x0000000000002ce0       0xa8 /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+                0x0000000000002ce0                _DYNAMIC
+
+.got            0x0000000000002d88       0x70
+ *(.got.plt)
+ .got.plt       0x0000000000002d88       0x60 /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+                0x0000000000002d88                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ .igot.plt      0x0000000000002de8        0x0 /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+ *(.got)
+ .got           0x0000000000002de8       0x10 /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+ *(.igot)
+
+.data           0x0000000000002df8       0x14
+                0x0000000000002df8                . = ALIGN (0x4)
+                0x0000000000002df8                __data_start__ = .
+ *(vtable)
+ *(.data)
+ .data          0x0000000000002df8        0x0 /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+ .data          0x0000000000002df8        0x0 /workspace/nts-3_kaoss/space-genericfx//build/obj/_unit_base.o
+ .data          0x0000000000002df8        0x0 /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+ .data          0x0000000000002df8        0x0 /workspace/nts-3_kaoss/space-genericfx//build/obj/params.o
+ .data          0x0000000000002df8        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .data          0x0000000000002df8        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+ .data          0x0000000000002df8        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+ .data          0x0000000000002df8        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .data          0x0000000000002df8        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+ .data          0x0000000000002df8        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .data          0x0000000000002df8        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+ .data          0x0000000000002df8        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .data          0x0000000000002df8        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .data          0x0000000000002df8        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+ *(.data.*)
+ .data.rel.ro   0x0000000000002df8        0x0 /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+ .data.rel.local._ZZNK6Effect20getParameterStrValueEhlE5names
+                0x0000000000002df8       0x14 /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+                0x0000000000002df8                Effect::getParameterStrValue(unsigned char, long) const::names
+                0x0000000000002e0c                . = ALIGN (0x4)
+                0x0000000000002e0c                __data_end__ = .
+
+.bss            0x0000000000002e0c     0x22d8
+                0x0000000000002e0c                . = ALIGN (0x4)
+                0x0000000000002e0c                __bss_start__ = .
+ *(.bss)
+ .bss           0x0000000000002e0c        0x0 /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+ .bss           0x0000000000002e0c        0x0 /workspace/nts-3_kaoss/space-genericfx//build/obj/_unit_base.o
+ .bss           0x0000000000002e0c      0x2d8 /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+ .bss           0x00000000000030e4     0x2000 /workspace/nts-3_kaoss/space-genericfx//build/obj/params.o
+                0x00000000000030e4                g_hannLut
+                0x00000000000040e4                g_sinLut
+ .bss           0x00000000000050e4        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .bss           0x00000000000050e4        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+ .bss           0x00000000000050e4        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+ .bss           0x00000000000050e4        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .bss           0x00000000000050e4        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+ .bss           0x00000000000050e4        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .bss           0x00000000000050e4        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+ .bss           0x00000000000050e4        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .bss           0x00000000000050e4        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .bss           0x00000000000050e4        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+ *(.bss.*)
+ *(COMMON)
+                0x00000000000050e4                . = ALIGN (0x4)
+                0x00000000000050e4                __bss_end__ = .
+
+.dynbss         0x00000000000050e4        0x0
+ .dynbss        0x00000000000050e4        0x0 /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+
+.stack          0x00000000000050f0        0x4
+                0x00000000000050f0                . = ALIGN (0x10)
+                0x00000000000050f0                __HEAP = .
+                0x00000000000050f0                _end = .
+                0x00000000000050f0                end = .
+                0x00000000000050f0                . = (. + __heap_size)
+                0x00000000000050f0                __HEAP_END = .
+                0x00000000000050f0                _stack_end = .
+                0x00000000000050f0                . = (. + __stack_size)
+                0x00000000000050f0                _stack_addr = .
+                0x00000000000050f0                __stack = .
+                0x00000000000050f0                __SP_INIT = .
+                0x00000000000050f4                . = (. + 0x4)
+ *fill*         0x00000000000050f0        0x4 
+
+/DISCARD/
+ *(.fini_array.* .fini_array .dtors.* .dtors)
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/libgcc.a
+END GROUP
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a
+END GROUP
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a
+END GROUP
+OUTPUT(/workspace/nts-3_kaoss/space-genericfx//build/space_genericfx.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000     0xfc67
+ .debug_info    0x0000000000000000      0xf82 /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+ .debug_info    0x0000000000000f82     0x1205 /workspace/nts-3_kaoss/space-genericfx//build/obj/_unit_base.o
+ .debug_info    0x0000000000002187     0x5506 /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+ .debug_info    0x000000000000768d     0x133a /workspace/nts-3_kaoss/space-genericfx//build/obj/params.o
+ .debug_info    0x00000000000089c7      0xf21 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .debug_info    0x00000000000098e8      0xaac /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+ .debug_info    0x000000000000a394      0xab7 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+ .debug_info    0x000000000000ae4b      0xcbb /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .debug_info    0x000000000000bb06      0xaef /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+ .debug_info    0x000000000000c5f5      0xcb6 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .debug_info    0x000000000000d2ab      0xab4 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+ .debug_info    0x000000000000dd5f      0xa00 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .debug_info    0x000000000000e75f      0xa4a /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .debug_info    0x000000000000f1a9      0xabe /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+
+.debug_abbrev   0x0000000000000000     0x298c
+ .debug_abbrev  0x0000000000000000      0x249 /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+ .debug_abbrev  0x0000000000000249      0x370 /workspace/nts-3_kaoss/space-genericfx//build/obj/_unit_base.o
+ .debug_abbrev  0x00000000000005b9      0x810 /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+ .debug_abbrev  0x0000000000000dc9      0x3d0 /workspace/nts-3_kaoss/space-genericfx//build/obj/params.o
+ .debug_abbrev  0x0000000000001199      0x1d9 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .debug_abbrev  0x0000000000001372      0x285 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+ .debug_abbrev  0x00000000000015f7      0x290 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+ .debug_abbrev  0x0000000000001887      0x2bd /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .debug_abbrev  0x0000000000001b44      0x246 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+ .debug_abbrev  0x0000000000001d8a      0x2c1 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .debug_abbrev  0x000000000000204b      0x25d /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+ .debug_abbrev  0x00000000000022a8      0x235 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .debug_abbrev  0x00000000000024dd      0x251 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .debug_abbrev  0x000000000000272e      0x25e /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+
+.debug_aranges  0x0000000000000000      0x208
+ .debug_aranges
+                0x0000000000000000       0x18 /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+ .debug_aranges
+                0x0000000000000018       0x20 /workspace/nts-3_kaoss/space-genericfx//build/obj/_unit_base.o
+ .debug_aranges
+                0x0000000000000038       0x70 /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+ .debug_aranges
+                0x00000000000000a8       0x20 /workspace/nts-3_kaoss/space-genericfx//build/obj/params.o
+ .debug_aranges
+                0x00000000000000c8       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .debug_aranges
+                0x00000000000000e8       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+ .debug_aranges
+                0x0000000000000108       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+ .debug_aranges
+                0x0000000000000128       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .debug_aranges
+                0x0000000000000148       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+ .debug_aranges
+                0x0000000000000168       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .debug_aranges
+                0x0000000000000188       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+ .debug_aranges
+                0x00000000000001a8       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .debug_aranges
+                0x00000000000001c8       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .debug_aranges
+                0x00000000000001e8       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+
+.debug_line     0x0000000000000000     0x36d0
+ .debug_line    0x0000000000000000       0xfb /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+ .debug_line    0x00000000000000fb      0x1a3 /workspace/nts-3_kaoss/space-genericfx//build/obj/_unit_base.o
+ .debug_line    0x000000000000029e      0xf74 /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+ .debug_line    0x0000000000001212      0x2bb /workspace/nts-3_kaoss/space-genericfx//build/obj/params.o
+ .debug_line    0x00000000000014cd      0x26b /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .debug_line    0x0000000000001738      0x262 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+ .debug_line    0x000000000000199a      0x262 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+ .debug_line    0x0000000000001bfc      0x53b /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .debug_line    0x0000000000002137      0x2a9 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+ .debug_line    0x00000000000023e0      0x95f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .debug_line    0x0000000000002d3f      0x24d /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+ .debug_line    0x0000000000002f8c      0x1e1 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .debug_line    0x000000000000316d      0x2aa /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .debug_line    0x0000000000003417      0x2b9 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+
+.debug_str      0x0000000000000000     0x2d13
+ .debug_str     0x0000000000000000      0xca7 /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+                                        0xdcd (size before relaxing)
+ .debug_str     0x0000000000000ca7      0x2a9 /workspace/nts-3_kaoss/space-genericfx//build/obj/_unit_base.o
+                                        0xd3e (size before relaxing)
+ .debug_str     0x0000000000000f50     0x146f /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+                                       0x1fc8 (size before relaxing)
+ .debug_str     0x00000000000023bf       0x51 /workspace/nts-3_kaoss/space-genericfx//build/obj/params.o
+                                        0x9b7 (size before relaxing)
+ .debug_str     0x0000000000002410      0x40c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+                                        0x90f (size before relaxing)
+ .debug_str     0x000000000000281c      0x130 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+                                        0x64d (size before relaxing)
+ .debug_str     0x000000000000294c       0x32 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+                                        0x64d (size before relaxing)
+ .debug_str     0x000000000000297e       0xad /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+                                        0x6ad (size before relaxing)
+ .debug_str     0x0000000000002a2b       0x32 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+                                        0x62b (size before relaxing)
+ .debug_str     0x0000000000002a5d       0x68 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+                                        0x646 (size before relaxing)
+ .debug_str     0x0000000000002ac5       0x32 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+                                        0x62b (size before relaxing)
+ .debug_str     0x0000000000002af7       0x33 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+                                        0x61a (size before relaxing)
+ .debug_str     0x0000000000002b2a       0xa5 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+                                        0x63c (size before relaxing)
+ .debug_str     0x0000000000002bcf      0x144 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+                                        0x650 (size before relaxing)
+
+.comment        0x0000000000000000       0xa7
+ .comment       0x0000000000000000       0x59 /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+                                         0x5a (size before relaxing)
+ .comment       0x0000000000000059       0x5a /workspace/nts-3_kaoss/space-genericfx//build/obj/_unit_base.o
+ .comment       0x0000000000000059       0x5a /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+ .comment       0x0000000000000059       0x5a /workspace/nts-3_kaoss/space-genericfx//build/obj/params.o
+ .comment       0x0000000000000059       0x4e /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+                                         0x4f (size before relaxing)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+
+.ARM.attributes
+                0x0000000000000000       0x39
+ .ARM.attributes
+                0x0000000000000000       0x39 /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+ .ARM.attributes
+                0x0000000000000039       0x34 /workspace/nts-3_kaoss/space-genericfx//build/obj/_unit_base.o
+ .ARM.attributes
+                0x000000000000006d       0x34 /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+ .ARM.attributes
+                0x00000000000000a1       0x34 /workspace/nts-3_kaoss/space-genericfx//build/obj/params.o
+ .ARM.attributes
+                0x00000000000000d5       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000000000000109       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+ .ARM.attributes
+                0x000000000000013d       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+ .ARM.attributes
+                0x0000000000000171       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .ARM.attributes
+                0x00000000000001a5       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+ .ARM.attributes
+                0x00000000000001d9       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .ARM.attributes
+                0x000000000000020d       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+ .ARM.attributes
+                0x0000000000000241       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .ARM.attributes
+                0x0000000000000275       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .ARM.attributes
+                0x00000000000002a9       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+
+.debug_loc      0x0000000000000000     0x3a6a
+ .debug_loc     0x0000000000000000       0x6f /workspace/nts-3_kaoss/space-genericfx//build/obj/_unit_base.o
+ .debug_loc     0x000000000000006f     0x19cb /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+ .debug_loc     0x0000000000001a3a       0xf4 /workspace/nts-3_kaoss/space-genericfx//build/obj/params.o
+ .debug_loc     0x0000000000001b2e      0x231 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .debug_loc     0x0000000000001d5f       0xd2 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+ .debug_loc     0x0000000000001e31       0xd2 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+ .debug_loc     0x0000000000001f03      0x655 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .debug_loc     0x0000000000002558      0x233 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+ .debug_loc     0x000000000000278b      0xb2e /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .debug_loc     0x00000000000032b9      0x12f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+ .debug_loc     0x00000000000033e8       0x7c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .debug_loc     0x0000000000003464      0x256 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .debug_loc     0x00000000000036ba      0x3b0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+
+.debug_frame    0x0000000000000000      0x5c8
+ .debug_frame   0x0000000000000000       0xd0 /workspace/nts-3_kaoss/space-genericfx//build/obj/_unit_base.o
+ .debug_frame   0x00000000000000d0      0x288 /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+ .debug_frame   0x0000000000000358       0x74 /workspace/nts-3_kaoss/space-genericfx//build/obj/params.o
+ .debug_frame   0x00000000000003cc       0x38 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x0000000000000404       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+ .debug_frame   0x0000000000000438       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+ .debug_frame   0x000000000000046c       0x44 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .debug_frame   0x00000000000004b0       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+ .debug_frame   0x00000000000004d0       0x5c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .debug_frame   0x000000000000052c       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+ .debug_frame   0x000000000000054c       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .debug_frame   0x000000000000056c       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .debug_frame   0x000000000000058c       0x3c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+
+.debug_ranges   0x0000000000000000      0x588
+ .debug_ranges  0x0000000000000000      0x468 /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+ .debug_ranges  0x0000000000000468       0x60 /workspace/nts-3_kaoss/space-genericfx//build/obj/params.o
+ .debug_ranges  0x00000000000004c8       0x18 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+ .debug_ranges  0x00000000000004e0       0x18 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+ .debug_ranges  0x00000000000004f8       0x38 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .debug_ranges  0x0000000000000530       0x10 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .debug_ranges  0x0000000000000540       0x48 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+
+Cross Reference Table
+
+Symbol                                            File
+Biquad::process(float)                            /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+Biquad::reset()                                   /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+Biquad::setBPF(float, float, float)               /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+Biquad::setLPF(float, float, float)               /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+DelayLine::readHermite(float) const               /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+Effect::Init(unit_runtime_desc const*)            /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+Effect::getParameterStrValue(unsigned char, long) const::names /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+SpaceDelay::process(float const*, float*, unsigned long) /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+SpaceDelay::setPreset(int)                        /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+SpaceDelay::setTempo(unsigned long)               /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+_DYNAMIC                                          /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+_GLOBAL_OFFSET_TABLE_                             /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+                                                  /workspace/nts-3_kaoss/space-genericfx//build/obj/params.o
+                                                  /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+__ieee754_rem_pio2f                               /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+__kernel_cosf                                     /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+__kernel_rem_pio2f                                /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+__kernel_sinf                                     /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+cosf                                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+                                                  /workspace/nts-3_kaoss/space-genericfx//build/obj/params.o
+                                                  /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+fabsf                                             /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+floorf                                            /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+g_hannLut                                         /workspace/nts-3_kaoss/space-genericfx//build/obj/params.o
+g_sinLut                                          /workspace/nts-3_kaoss/space-genericfx//build/obj/params.o
+initHannLut()                                     /workspace/nts-3_kaoss/space-genericfx//build/obj/params.o
+                                                  /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+initSinLut()                                      /workspace/nts-3_kaoss/space-genericfx//build/obj/params.o
+                                                  /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+memset                                            /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+                                                  /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+scalbnf                                           /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+sinf                                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+                                                  /workspace/nts-3_kaoss/space-genericfx//build/obj/params.o
+                                                  /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+unit_get_param_str_value                          /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+                                                  /workspace/nts-3_kaoss/space-genericfx//build/obj/_unit_base.o
+unit_get_param_value                              /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+                                                  /workspace/nts-3_kaoss/space-genericfx//build/obj/_unit_base.o
+unit_header                                       /workspace/nts-3_kaoss/space-genericfx//build/obj/header.o
+                                                  /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+unit_init                                         /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+                                                  /workspace/nts-3_kaoss/space-genericfx//build/obj/_unit_base.o
+unit_render                                       /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+                                                  /workspace/nts-3_kaoss/space-genericfx//build/obj/_unit_base.o
+unit_reset                                        /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+                                                  /workspace/nts-3_kaoss/space-genericfx//build/obj/_unit_base.o
+unit_resume                                       /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+                                                  /workspace/nts-3_kaoss/space-genericfx//build/obj/_unit_base.o
+unit_set_param_value                              /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+                                                  /workspace/nts-3_kaoss/space-genericfx//build/obj/_unit_base.o
+unit_set_tempo                                    /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+                                                  /workspace/nts-3_kaoss/space-genericfx//build/obj/_unit_base.o
+unit_suspend                                      /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+                                                  /workspace/nts-3_kaoss/space-genericfx//build/obj/_unit_base.o
+unit_teardown                                     /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+                                                  /workspace/nts-3_kaoss/space-genericfx//build/obj/_unit_base.o
+unit_tempo_4ppqn_tick                             /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+                                                  /workspace/nts-3_kaoss/space-genericfx//build/obj/_unit_base.o
+unit_touch_event                                  /workspace/nts-3_kaoss/space-genericfx//build/obj/unit.o
+                                                  /workspace/nts-3_kaoss/space-genericfx//build/obj/_unit_base.o
