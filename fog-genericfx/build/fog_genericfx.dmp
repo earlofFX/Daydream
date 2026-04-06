@@ -1,0 +1,347 @@
+
+/workspace/nts-3_kaoss/fog-genericfx//build/fog_genericfx.elf:     file format elf32-littlearm
+/workspace/nts-3_kaoss/fog-genericfx//build/fog_genericfx.elf
+architecture: armv7e-m, flags 0x00000150:
+HAS_SYMS, DYNAMIC, D_PAGED
+start address 0x00000000
+
+Program Header:
+    PHDR off    0x00000034 vaddr 0x00000034 paddr 0x00000034 align 2**2
+         filesz 0x000000a0 memsz 0x000000a0 flags r--
+    LOAD off    0x00000000 vaddr 0x00000000 paddr 0x00000000 align 2**7
+         filesz 0x000057f0 memsz 0x000057f0 flags r-x
+    LOAD off    0x000057f0 vaddr 0x000057f0 paddr 0x000057f0 align 2**7
+         filesz 0x000002f0 memsz 0x000002f0 flags r--
+    LOAD off    0x00005ae0 vaddr 0x00005ae0 paddr 0x00005ae0 align 2**7
+         filesz 0x000002a0 memsz 0x000024c4 flags rw-
+ DYNAMIC off    0x00005ae8 vaddr 0x00005ae8 paddr 0x00005ae8 align 2**3
+         filesz 0x000000a8 memsz 0x000000a8 flags rw-
+
+Dynamic Section:
+  INIT_ARRAY           0x00005ae0
+  INIT_ARRAYSZ         0x00000004
+  HASH                 0x000000d4
+  STRTAB               0x00000e78
+  SYMTAB               0x00000538
+  STRSZ                0x000006a2
+  SYMENT               0x00000010
+  PLTGOT               0x00005b90
+  PLTRELSZ             0x00000258
+  PLTREL               0x00000011
+  JMPREL               0x000018ac
+  REL                  0x0000151c
+  RELSZ                0x00000390
+  RELENT               0x00000008
+  TEXTREL              0x00000000
+  RELCOUNT             0x0000002b
+private flags = 5000400: [Version5 EABI] [hard-float ABI]
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .hash         00000464  000000d4  000000d4  000000d4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  1 .dynsym       00000940  00000538  00000538  00000538  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  2 .dynstr       000006a2  00000e78  00000e78  00000e78  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  3 .rel.plt      00000258  000018ac  000018ac  000018ac  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  4 .text         0000381d  00001b10  00001b10  00001b10  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  5 .plt          000004c0  00005330  00005330  00005330  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  6 .unit_header  000002f0  000057f0  000057f0  000057f0  2**3
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  7 .preinit_array 00000000  00005ae0  00005d80  00005d80  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+  8 .init_array   00000004  00005ae0  00005ae0  00005ae0  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+  9 .dynamic      000000a8  00005ae8  00005ae8  00005ae8  2**3
+                  CONTENTS, ALLOC, LOAD, DATA
+ 10 .got          00000148  00005b90  00005b90  00005b90  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 11 .data         000000a8  00005cd8  00005cd8  00005cd8  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 12 .bss          0000221c  00005d80  00005d80  00005d80  2**2
+                  ALLOC
+ 13 .stack        00000004  00007fa0  00007fa0  00005d80  2**4
+                  ALLOC
+ 14 .debug_info   0002f6b1  00000000  00000000  00005d80  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 15 .debug_abbrev 00008c2c  00000000  00000000  00035431  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 16 .debug_aranges 000007d8  00000000  00000000  0003e060  2**3
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 17 .debug_line   000099f8  00000000  00000000  0003e838  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 18 .debug_str    000042c8  00000000  00000000  00048230  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 19 .comment      000000a7  00000000  00000000  0004c4f8  2**0
+                  CONTENTS, READONLY
+ 20 .ARM.attributes 00000037  00000000  00000000  0004c59f  2**0
+                  CONTENTS, READONLY
+ 21 .rel.dyn      00000390  0000151c  0000151c  0000151c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 22 .debug_loc    00007806  00000000  00000000  0004c5d6  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 23 .debug_frame  000010f4  00000000  00000000  00053ddc  2**2
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 24 .debug_ranges 00000888  00000000  00000000  00054ed0  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 25 .stab         000000cc  00000000  00000000  00055758  2**2
+                  CONTENTS, READONLY, DEBUGGING
+ 26 .stabstr      000001b9  00000000  00000000  00055824  2**0
+                  CONTENTS, READONLY, DEBUGGING
+SYMBOL TABLE:
+000000d4 l    d  .hash	00000000 .hash
+00000538 l    d  .dynsym	00000000 .dynsym
+00000e78 l    d  .dynstr	00000000 .dynstr
+000018ac l    d  .rel.plt	00000000 .rel.plt
+00001b10 l    d  .text	00000000 .text
+00005330 l    d  .plt	00000000 .plt
+000057f0 l    d  .unit_header	00000000 .unit_header
+00005ae0 l    d  .preinit_array	00000000 .preinit_array
+00005ae0 l    d  .init_array	00000000 .init_array
+00005ae8 l    d  .dynamic	00000000 .dynamic
+00005b90 l    d  .got	00000000 .got
+00005cd8 l    d  .data	00000000 .data
+00005d80 l    d  .bss	00000000 .bss
+00007fa0 l    d  .stack	00000000 .stack
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+0000151c l    d  .rel.dyn	00000000 .rel.dyn
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .stab	00000000 .stab
+00000000 l    d  .stabstr	00000000 .stabstr
+00000000 l    df *ABS*	00000000 header.c
+00000000 l    df *ABS*	00000000 _unit_base.c
+00000000 l    df *ABS*	00000000 unit.cc
+00004d9c l     F .text	00000038 _GLOBAL__sub_I_unit.cc
+00005d80 l     O .bss	0000020c _ZL17s_effect_instance
+00000000 l    df *ABS*	00000000 params.cc
+00000000 l    df *ABS*	00000000 memset.c
+00000000 l    df *ABS*	00000000 rand.c
+00000000 l    df *ABS*	00000000 assert.c
+00000000 l    df *ABS*	00000000 fprintf.c
+00000000 l    df *ABS*	00000000 impure.c
+00005cdc l     O .data	00000060 impure_data
+00000000 l    df *ABS*	00000000 malloc.c
+00000000 l    df *ABS*	00000000 nano-mallocr.c
+00000000 l    df *ABS*	00000000 nano-mallocr.c
+00000000 l    df *ABS*	00000000 nano-vfprintf.c
+0000219c l     F .text	0000003a __sfputc_r
+00000000 l    df *ABS*	00000000 nano-vfprintf_i.c
+00000000 l    df *ABS*	00000000 sbrkr.c
+00000000 l    df *ABS*	00000000 wbuf.c
+00000000 l    df *ABS*	00000000 wsetup.c
+00000000 l    df *ABS*	00000000 abort.c
+00000000 l    df *ABS*	00000000 fflush.c
+00000000 l    df *ABS*	00000000 findfp.c
+00002c68 l     F .text	00000004 __fp_lock
+00002c78 l     F .text	00000004 __fp_unlock
+00002d30 l     F .text	000000f4 __sinit.part.0
+00000000 l    df *ABS*	00000000 fvwrite.c
+00000000 l    df *ABS*	00000000 fwalk.c
+00000000 l    df *ABS*	00000000 makebuf.c
+00000000 l    df *ABS*	00000000 lib_a-memchr.o
+00000000 l    df *ABS*	00000000 lib_a-memcpy.o
+00000000 l    df *ABS*	00000000 memmove.c
+00000000 l    df *ABS*	00000000 mlock.c
+00000000 l    df *ABS*	00000000 nano-mallocr.c
+00000000 l    df *ABS*	00000000 reent.c
+00000000 l    df *ABS*	00000000 signal.c
+000036f0 l     F .text	00000026 _init_signal_r.part.0
+00000000 l    df *ABS*	00000000 signalr.c
+00000000 l    df *ABS*	00000000 stdio.c
+00000000 l    df *ABS*	00000000 writer.c
+00000000 l    df *ABS*	00000000 closer.c
+00000000 l    df *ABS*	00000000 fstatr.c
+00000000 l    df *ABS*	00000000 isattyr.c
+00000000 l    df *ABS*	00000000 lseekr.c
+00000000 l    df *ABS*	00000000 nano-mallocr.c
+00000000 l    df *ABS*	00000000 readr.c
+00000000 l    df *ABS*	00000000 sf_cos.c
+00000000 l    df *ABS*	00000000 sf_sin.c
+00000000 l    df *ABS*	00000000 wf_sqrt.c
+00000000 l    df *ABS*	00000000 ef_rem_pio2.c
+00004e38 l     O .text	00000080 npio2_hw
+00004eb8 l     O .text	00000318 two_over_pi
+00000000 l    df *ABS*	00000000 ef_sqrt.c
+00000000 l    df *ABS*	00000000 kf_cos.c
+00000000 l    df *ABS*	00000000 kf_rem_pio2.c
+000051d0 l     O .text	0000000c init_jk
+000051dc l     O .text	0000002c PIo2
+00000000 l    df *ABS*	00000000 kf_sin.c
+00000000 l    df *ABS*	00000000 s_lib_ver.c
+00000000 l    df *ABS*	00000000 sf_fabs.c
+00000000 l    df *ABS*	00000000 sf_floor.c
+00000000 l    df *ABS*	00000000 sf_scalbn.c
+00000000 l    df *ABS*	00000000 errno.c
+00000000 l    df *ABS*	00000000 close.c
+00000000 l    df *ABS*	00000000 fstat.c
+00000000 l    df *ABS*	00000000 getpid.c
+00000000 l    df *ABS*	00000000 isatty.c
+00000000 l    df *ABS*	00000000 kill.c
+00000000 l    df *ABS*	00000000 lseek.c
+00000000 l    df *ABS*	00000000 read.c
+00000000 l    df *ABS*	00000000 sbrk.c
+00007f94 l     O .bss	00000004 heap_end.5499
+00000000 l    df *ABS*	00000000 write.c
+00000000 l    df *ABS*	00000000 _exit.c
+00000000 l    df *ABS*	00000000 
+00005ae8 l     O *ABS*	00000000 _DYNAMIC
+00005b90 l     O *ABS*	00000000 _GLOBAL_OFFSET_TABLE_
+000039c4 g     F .text	00000010 _malloc_usable_size_r
+00007fa0 g       .stack	00000000 __HEAP
+00001b30 g     F .text	00000014 unit_init
+00003974 g     F .text	00000024 _isatty_r
+00003608 g     F .text	0000001a cleanup_glue
+000047b4 g     F .text	00000010 _getpid
+00003998 g     F .text	0000002c _lseek_r
+00005cd8 g       .data	00000000 __data_start__
+00003840 g     F .text	00000028 _kill_r
+00001b46 g     F .text	00000002 unit_reset
+00003724 g     F .text	00000034 _signal_r
+000038d4 g     F .text	00000020 __sseek
+00002e38 g     F .text	00000008 __sinit
+000028e8 g     F .text	000000b0 __swbuf_r
+00006f8c g     O .bss	00001000 g_sinLut
+00002c7c g     F .text	0000002e __sfmoreglue
+000035b8 g     F .text	00000002 __malloc_unlock
+00004834  w    F .text	000000dc _ZNK9DelayLine11readHermiteEf
+000034e4 g     F .text	000000ce memmove
+00002e24 g     F .text	00000014 _cleanup
+00001ce8 g     F .text	00000028 unit_get_param_value
+00004788 g     F .text	0000000c __errno
+00004910  w    F .text	00000032 _ZN11GrainEngine15updateSpawnRateEv
+00003b74 g     F .text	00000298 __ieee754_rem_pio2f
+00007fa0 g       .stack	00000000 _stack_addr
+0000394c g     F .text	00000028 _fstat_r
+00007f98 g     O .bss	00000004 errno
+00003890 g     F .text	00000004 __seofread
+00000000 g       *ABS*	00000000 __stack_size
+00003b24 g     F .text	00000050 sqrtf
+00004944  w    F .text	00000010 _ZN11GrainEngine5frandEv
+000033b0 g     F .text	00000134 memcpy
+00002c6c g     F .text	0000000c _cleanup_r
+00002008 g     F .text	00000010 malloc
+00003758 g     F .text	00000054 _raise_r
+000047a4 g     F .text	00000010 _fstat
+00001f7c g     F .text	0000003c __assert_func
+00003868 g     F .text	00000004 _getpid_r
+00005d80 g       .bss	00000000 __bss_start__
+00002e78 g     F .text	00000308 __sfvwrite_r
+000037ac g     F .text	0000004e __sigtramp_r
+00001d38 g     F .text	00000050 _Z10initSinLutv
+00001d88 g     F .text	00000060 _Z11initHannLutv
+000028c4 g     F .text	00000024 _sbrk_r
+0000460c g     F .text	0000000e fabsf
+000039d4 g     F .text	0000002c _read_r
+00002c44 g     F .text	00000024 fflush
+00001d34 g     F .text	00000002 unit_touch_event
+000047c4 g     F .text	00000010 _isatty
+00005d3c g     O .data	00000001 __fdlib_version
+00004dd4 g     O .text	00000004 _global_impure_ptr
+000035bc g     F .text	0000004c _realloc_r
+0000457c g     F .text	00000090 __kernel_sinf
+00002aa8 g     F .text	0000000e abort
+00004804 g     F .text	0000001c _sbrk
+00001d10 g     F .text	00000020 unit_get_param_str_value
+00002e50 g     F .text	00000014 __fp_lock_all
+00001d32 g     F .text	00000002 unit_tempo_4ppqn_tick
+00001b8c g     F .text	0000015c unit_set_param_value
+00003a00 g     F .text	00000090 cosf
+00001b48 g     F .text	00000002 unit_resume
+00003624 g     F .text	000000cc _reclaim_reent
+00003e14 g     F .text	00000104 __kernel_cosf
+00004c44  w    F .text	00000158 _ZN6Effect4InitEPK17unit_runtime_desc
+00001fe0 g     F .text	00000028 fprintf
+00000000 g       *ABS*	00000000 __heap_size
+00004dd8 g     O .text	00000020 __sf_fake_stderr
+00007fa0 g       .stack	00000000 end
+00005d80 g       .data	00000000 __data_end__
+000021d8 g     F .text	0000002e __sfputs_r
+00002e40 g     F .text	00000002 __sfp_lock_acquire
+00003310 g     F .text	00000000 memchr
+00000000  w      *UND*	00000000 _printf_float
+00007f9c g       .bss	00000000 __bss_end__
+00002028 g     F .text	000000ac _free_r
+00001eec g     F .text	00000090 rand
+000047e4 g     F .text	00000010 _lseek
+0000380c g     F .text	00000010 signal
+00007fa0 g       .stack	00000000 __SP_INIT
+00004954  w    F .text	000002f0 _ZN11GrainEngine7processEPKfPfm
+00003928 g     F .text	00000024 _close_r
+000029a8 g     F .text	00000100 __swsetup_r
+00002cac g     F .text	00000084 __sfp
+00002e4c g     F .text	00000002 __sinit_lock_release
+0000386c g     F .text	00000022 __sread
+000035b4 g     F .text	00000002 __malloc_lock
+00001fc4 g     F .text	0000001c _fprintf_r
+00001b4a g     F .text	00000002 unit_suspend
+000046a4 g     F .text	000000e4 scalbnf
+00002be4 g     F .text	00000060 _fflush_r
+00001b4c g     F .text	00000040 unit_render
+00004e18 g     O .text	00000020 __sf_fake_stdin
+00001de8 g     F .text	000000a0 memset
+00003e0c g     F .text	00000006 __ieee754_sqrtf
+00002998 g     F .text	00000010 __swbuf
+00001e88 g     F .text	00000064 srand
+000038f4 g     F .text	00000008 __sclose
+00005f8c g     O .bss	00001000 g_hannLut
+000020d4 g     F .text	000000c8 _malloc_r
+00001fc4 g     F .text	0000001c _fiprintf_r
+0000381c g     F .text	00000014 _init_signal
+00003180 g     F .text	0000004a _fwalk
+00007fa0 g       .stack	00000000 _stack_end
+000024e8 g     F .text	00000018 vfiprintf
+00005d54 g     O .data	0000002c kEffectNames
+000038fc g     F .text	0000002c _write_r
+00002500 g     F .text	0000012a _printf_common
+00005cd8 g     O .data	00000004 _impure_ptr
+00002ab8 g     F .text	0000012a __sflush_r
+000057f0 g     O .unit_header	00000178 unit_header
+00002e64 g     F .text	00000014 __fp_unlock_all
+00003a90 g     F .text	00000094 sinf
+00001b44 g     F .text	00000002 unit_teardown
+00003220 g     F .text	0000005a __swhatbuf_r
+00007fa0 g       .stack	00000000 __stack
+00004820 g     F .text	00000010 _write
+00001d30 g     F .text	00000002 unit_set_tempo
+00007fa0 g       .stack	00000000 _end
+00003894 g     F .text	0000003e __swrite
+00001fe0 g     F .text	00000028 fiprintf
+00002224 g     F .text	000002c4 _vfiprintf_r
+000031cc g     F .text	00000052 _fwalk_reent
+00005d40  w    O .data	00000014 _ZZNK6Effect20getParameterStrValueEhlE5names
+000047d4 g     F .text	00000010 _kill
+00002e44 g     F .text	00000002 __sfp_lock_release
+00004df8 g     O .text	00000020 __sf_fake_stdout
+000047f4 g     F .text	00000010 _read
+00004830 g     F .text	00000002 _exit
+00003f18 g     F .text	00000664 __kernel_rem_pio2f
+0000327c g     F .text	00000094 __smakebuf_r
+0000262c g     F .text	00000298 _printf_i
+00003718 g     F .text	0000000a _init_signal_r
+00007f90 g     O .bss	00000004 __malloc_sbrk_start
+00001fb8 g     F .text	0000000a __assert
+00002208 g     F .text	0000001a __sprint_r
+0000461c g     F .text	00000088 floorf
+00007fa0 g       .stack	00000000 __HEAP_END
+00007f8c g     O .bss	00000004 __malloc_free_list
+00002224 g     F .text	000002c4 _vfprintf_r
+00003830 g     F .text	00000010 __sigtramp
+000024e8 g     F .text	00000018 vfprintf
+00004794 g     F .text	00000010 _close
+000037fc g     F .text	00000010 raise
+00002018 g     F .text	00000010 free
+00002e48 g     F .text	00000002 __sinit_lock_acquire
+
+
